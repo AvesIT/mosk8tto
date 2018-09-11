@@ -2,7 +2,7 @@
 
 # Mosquitto
 
-This helm chart installs mosquitto version v1.4.14
+This helm chart installs mosquitto version v1.5.1
 https://github.com/eclipse/mosquitto
 
 ## ConfigMap customization

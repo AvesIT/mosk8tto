@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mosquitto
-        image: avesit/mosquitto:1.4.14
+        image: avesit/mosk8tto:1.5.1
         ports:
         - containerPort: 1883
           name: mqtt
