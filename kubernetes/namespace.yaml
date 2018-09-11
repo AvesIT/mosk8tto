@@ -1,0 +1,6 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: mqtt
+  labels:
+    name: mqtt
