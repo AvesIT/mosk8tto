@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: 0.0.1
+description: A Helm chart for mosquitto
+name: mosquitto
+version: 1.4.14
+home: https://mosquitto.org/
+sources:
+- https://github.com/eclipse/mosquitto
+maintainers:
+  - name: WebSpider
+    email: webspider@bitlair.nl
