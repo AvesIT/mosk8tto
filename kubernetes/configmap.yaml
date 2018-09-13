@@ -1,0 +1,12 @@
+apiVersion: v1
+metadata:
+  name: mosquitto-config
+  namespace: mqtt
+data:
+  mosquitto.conf: |
+    autosave_interval 300
+    log_dest file /mosquitto/log/mosquitto.log
+    persistance true
+    persistance_location /mosquitto/db/
+    user mosquitto
+kind: ConfigMap
