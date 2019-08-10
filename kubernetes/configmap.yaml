@@ -6,7 +6,7 @@ data:
   mosquitto.conf: |
     autosave_interval 300
     log_dest file /mosquitto/log/mosquitto.log
-    persistance true
-    persistance_location /mosquitto/db/
+    persistence true
+    persistence_location /mosquitto/db/
     user mosquitto
 kind: ConfigMap
